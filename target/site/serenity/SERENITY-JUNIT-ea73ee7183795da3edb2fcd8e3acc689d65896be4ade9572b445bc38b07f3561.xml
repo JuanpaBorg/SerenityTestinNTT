@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Search Yelp" skipped="0" tests="1" time="15.89" timestamp="2024-07-21 02:05:45"><testcase name="Detail of the first restaurant search result"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LEGION-JP', ip: '10.5.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LEGION-JP', ip: '10.5.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LEGION-JP', ip: '10.5.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown&#13;
+Yelp.pageobject.PaginaPrincipal.searchRestaurant(PaginaPrincipal.java:55)&#13;
+Yelp.steps.UsuarioYelp.searchFor(UsuarioYelp.java:20)&#13;
+Yelp.stepsdefinitions.UsuarioDefinicionDePasos.userSearch(UsuarioDefinicionDePasos.java:24)&#13;
+✽.selects find Restaurants(src/test/resources/features/Yelp.feature:6)&#13;
+</system-err></testcase></testsuite>
